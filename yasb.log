@@ -1,83 +1,286 @@
-2022-10-29 21:46:07 INFO log.py: Yasb - Yet Another Status Bar
-2022-10-29 21:46:08 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:10 INFO bar_manager.py: Starting KomorebiEventListener...
-2022-10-29 21:46:10 INFO bar_manager.py: Starting SystemEventListener...
-2022-10-29 21:46:10 INFO event_listener.py: Created named pipe yasb-3f2a6322-57ec-11ed-8b8a-408d5c96c0f0
-2022-10-29 21:46:10 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-3f2a6322-57ec-11ed-8b8a-408d5c96c0f0
-2022-10-29 21:46:10 INFO watcher.py: Created file watcher for path C:\Users\Cliente\.yasb
-2022-10-29 21:46:10 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: No connection could be made because the target machine actively refused it. (os error 10061)
+2022-11-03 17:01:26 INFO log.py: Yasb - Yet Another Status Bar
+2022-11-03 17:01:29 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:01:29 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:01:29 INFO event_listener.py: Created named pipe yasb-4e1351a3-5bb2-11ed-a688-047f0e11a99f
+2022-11-03 17:01:29 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-4e1351a3-5bb2-11ed-a688-047f0e11a99f
+2022-11-03 17:01:29 INFO watcher.py: Created file watcher for path C:\Users\adinelson.bruhmuller.MOVTECH\.yasb
+2022-11-03 17:01:29 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
 
 Location:
     komorebic\src\main.rs:729:22
 
-2022-10-29 21:46:13 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:18 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:23 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:28 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:33 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:38 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
-2022-10-29 21:46:43 ERROR base.py: Failed to execute callback of type 'update_label' with args: []
-Traceback (most recent call last):
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\base.py", line 84, in _run_callback
-    self.callbacks[callback_type](*callback_args)
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 123, in _update_label
-    threshold = self._get_battery_threshold()
-  File "C:\Users\Cliente\.yasb\app\src\core\widgets\yasb\battery.py", line 86, in _get_battery_threshold
-    percent = self._battery_state.percent
-AttributeError: 'NoneType' object has no attribute 'percent'
+2022-11-03 17:02:36 ERROR config.py: The file 'C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow node
+expected the node content, but found ','
+  in "C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\config.yaml", line 97, column 16
+2022-11-03 17:02:36 ERROR config.py: The file 'C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\config.yaml' contains Parser Error(s). Please fix:
+while parsing a flow node
+expected the node content, but found ','
+  in "C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\config.yaml", line 97, column 16
+2022-11-03 17:02:39 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:02:40 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:02:41 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:02:41 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:02:41 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:02:41 INFO event_listener.py: Created named pipe yasb-793b1fa2-5bb2-11ed-a607-047f0e11a99f
+2022-11-03 17:02:41 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-793b1fa2-5bb2-11ed-a607-047f0e11a99f
+2022-11-03 17:02:41 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:04:34 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:04:34 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:04:36 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:04:36 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:04:36 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:04:36 INFO event_listener.py: Created named pipe yasb-bdb05223-5bb2-11ed-8f62-047f0e11a99f
+2022-11-03 17:04:36 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-bdb05223-5bb2-11ed-8f62-047f0e11a99f
+2022-11-03 17:04:36 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:06:58 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:06:59 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:07:00 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:07:00 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:07:00 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:07:00 INFO event_listener.py: Created named pipe yasb-13bdd9f3-5bb3-11ed-b76a-047f0e11a99f
+2022-11-03 17:07:00 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-13bdd9f3-5bb3-11ed-b76a-047f0e11a99f
+2022-11-03 17:07:00 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:07:25 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:07:25 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:07:27 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:07:27 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:07:27 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:07:27 INFO event_listener.py: Created named pipe yasb-237e86c9-5bb3-11ed-9e0d-047f0e11a99f
+2022-11-03 17:07:27 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-237e86c9-5bb3-11ed-9e0d-047f0e11a99f
+2022-11-03 17:07:27 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:09:02 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:09:02 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:09:04 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:09:04 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:09:04 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:09:04 INFO event_listener.py: Created named pipe yasb-5d6c8ad2-5bb3-11ed-935c-047f0e11a99f
+2022-11-03 17:09:04 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-5d6c8ad2-5bb3-11ed-935c-047f0e11a99f
+2022-11-03 17:09:04 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:09:12 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:09:13 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:09:14 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:09:14 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:09:14 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:09:14 INFO event_listener.py: Created named pipe yasb-637e5b86-5bb3-11ed-8b71-047f0e11a99f
+2022-11-03 17:09:14 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-637e5b86-5bb3-11ed-8b71-047f0e11a99f
+2022-11-03 17:09:14 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:09:17 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:09:17 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:09:19 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:09:19 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:09:19 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:09:19 INFO event_listener.py: Created named pipe yasb-66384298-5bb3-11ed-99d2-047f0e11a99f
+2022-11-03 17:09:19 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-66384298-5bb3-11ed-99d2-047f0e11a99f
+2022-11-03 17:09:19 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:10:08 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:10:08 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:10:09 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:10:09 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:10:09 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:10:09 INFO event_listener.py: Created named pipe yasb-8470fcbb-5bb3-11ed-ae72-047f0e11a99f
+2022-11-03 17:10:09 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-8470fcbb-5bb3-11ed-ae72-047f0e11a99f
+2022-11-03 17:10:09 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:10:12 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:10:13 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:10:14 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:10:14 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:10:14 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:10:14 INFO event_listener.py: Created named pipe yasb-8751e5d9-5bb3-11ed-9dcd-047f0e11a99f
+2022-11-03 17:10:14 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-8751e5d9-5bb3-11ed-9dcd-047f0e11a99f
+2022-11-03 17:10:14 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:10:35 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:10:36 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:10:37 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:10:37 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:10:37 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:10:37 INFO event_listener.py: Created named pipe yasb-9505fa2f-5bb3-11ed-9790-047f0e11a99f
+2022-11-03 17:10:37 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-9505fa2f-5bb3-11ed-9790-047f0e11a99f
+2022-11-03 17:10:37 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:10:46 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:10:47 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:10:48 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:10:48 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:10:48 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:10:48 INFO event_listener.py: Created named pipe yasb-9bb87035-5bb3-11ed-a4e5-047f0e11a99f
+2022-11-03 17:10:48 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-9bb87035-5bb3-11ed-a4e5-047f0e11a99f
+2022-11-03 17:10:49 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:05 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:05 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:07 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:07 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:07 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:07 INFO event_listener.py: Created named pipe yasb-a6a9d122-5bb3-11ed-a351-047f0e11a99f
+2022-11-03 17:11:07 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-a6a9d122-5bb3-11ed-a351-047f0e11a99f
+2022-11-03 17:11:07 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:13 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:14 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:15 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:15 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:15 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:15 INFO event_listener.py: Created named pipe yasb-ab9a09d3-5bb3-11ed-9563-047f0e11a99f
+2022-11-03 17:11:15 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-ab9a09d3-5bb3-11ed-9563-047f0e11a99f
+2022-11-03 17:11:15 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:18 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:19 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:20 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:20 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:20 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:20 INFO event_listener.py: Created named pipe yasb-ae958d35-5bb3-11ed-9745-047f0e11a99f
+2022-11-03 17:11:20 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-ae958d35-5bb3-11ed-9745-047f0e11a99f
+2022-11-03 17:11:20 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:27 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:27 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:29 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:29 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:29 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:29 INFO event_listener.py: Created named pipe yasb-b3d4b746-5bb3-11ed-977d-047f0e11a99f
+2022-11-03 17:11:29 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-b3d4b746-5bb3-11ed-977d-047f0e11a99f
+2022-11-03 17:11:29 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:36 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:37 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:38 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:38 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:38 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:38 INFO event_listener.py: Created named pipe yasb-b9462020-5bb3-11ed-9ff1-047f0e11a99f
+2022-11-03 17:11:38 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-b9462020-5bb3-11ed-9ff1-047f0e11a99f
+2022-11-03 17:11:38 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:11:42 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:11:43 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:11:44 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:11:44 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:11:44 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:11:44 INFO event_listener.py: Created named pipe yasb-bcf0cdb9-5bb3-11ed-b21d-047f0e11a99f
+2022-11-03 17:11:44 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-bcf0cdb9-5bb3-11ed-b21d-047f0e11a99f
+2022-11-03 17:11:44 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:12:25 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:12:29 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:13:52 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:15:11 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:15:16 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:02 ERROR config.py: The file 'C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\styles.css' contains Syntax Error(s). Please fix:
+PropertyValue: Missing token for production Choice(ColorValue, Dimension, URIValue, Value, variable, MSValue, CSSCalc, function): ('HASH', '#white', 38, 12)
+2022-11-03 17:16:02 ERROR config.py: The file 'C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\styles.css' contains Syntax Error(s). Please fix:
+PropertyValue: Missing token for production Choice(ColorValue, Dimension, URIValue, Value, variable, MSValue, CSSCalc, function): ('HASH', '#white', 38, 12)
+2022-11-03 17:16:02 ERROR config.py: The file 'C:\Users\adinelson.bruhmuller.MOVTECH\.yasb\styles.css' contains Syntax Error(s). Please fix:
+PropertyValue: Missing token for production Choice(ColorValue, Dimension, URIValue, Value, variable, MSValue, CSSCalc, function): ('HASH', '#white', 38, 12)
+2022-11-03 17:16:07 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:12 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:24 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:29 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:48 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:16:53 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:17 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:21 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:24 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:26 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:34 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:38 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:46 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:52 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:17:58 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:18:04 INFO bar_manager.py: Successfully loaded updated stylesheet and applied to all bars.
+2022-11-03 17:18:55 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:18:55 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:18:57 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:18:57 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:18:57 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:18:57 INFO event_listener.py: Created named pipe yasb-bed54e4a-5bb4-11ed-becd-047f0e11a99f
+2022-11-03 17:18:57 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-bed54e4a-5bb4-11ed-becd-047f0e11a99f
+2022-11-03 17:18:57 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:19:33 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:19:34 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:19:35 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:19:35 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:19:35 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:19:35 INFO event_listener.py: Created named pipe yasb-d5d6b8f8-5bb4-11ed-9678-047f0e11a99f
+2022-11-03 17:19:35 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-d5d6b8f8-5bb4-11ed-9678-047f0e11a99f
+2022-11-03 17:19:36 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
+2022-11-03 17:19:37 INFO bar_manager.py: Stopping SystemEventListener...
+2022-11-03 17:19:38 INFO bar_manager.py: Stopping KomorebiEventListener...
+2022-11-03 17:19:39 INFO bar_manager.py: Starting SystemEventListener...
+2022-11-03 17:19:39 INFO bar_manager.py: Starting KomorebiEventListener...
+2022-11-03 17:19:39 INFO bar_manager.py: Successfully loaded updated config and re-initialised all bars.
+2022-11-03 17:19:39 INFO event_listener.py: Created named pipe yasb-d80b3f5a-5bb4-11ed-8a1f-047f0e11a99f
+2022-11-03 17:19:39 INFO event_listener.py: Waiting for Komorebi to subscribe to named pipe yasb-d80b3f5a-5bb4-11ed-8a1f-047f0e11a99f
+2022-11-03 17:19:39 WARNING event_listener.py: Komorebi failed to subscribe named pipe. Waiting for subscription: Error: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente. (os error 10061)
+
+Location:
+    komorebic\src\main.rs:729:22
+
